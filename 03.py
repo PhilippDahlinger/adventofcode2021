@@ -35,7 +35,7 @@ def filtering_ox(data, bit):
         selection = 1
     else:
         selection = 0
-    idx = data[:, bit ] == selection
+    idx = data[:, bit] == selection
     return data[idx]
 
 
