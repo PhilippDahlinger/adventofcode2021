@@ -201,4 +201,5 @@ def second_solution():
 
 
 if __name__ == "__main__":
+    first_solution()
     second_solution()
